@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Автомобільний сайт</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0078d7;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+    }
+    a {
+      color: #0078d7;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .car-gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .car-item {
+      width: 30%;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .car-item img {
+      width: 100%;
+      height: auto;
+    }
+    .car-item h3 {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .car-item p {
+      padding: 10px;
+      text-align: center;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ласкаво просимо на автомобільний сайт!</h1>
+  </header>
+
+  <main>
+    <h2>Наші автомобілі</h2>
+    <p>Ось деякі моделі автомобілів, які ми пропонуємо для продажу та тест-драйву:</p>
+
+    <div class="car-gallery">
+      <div class="car-item">
+        <img src="https://via.placeholder.com/300x200" alt="Автомобіль 1">
+        <h3>Модель A</h3>
+        <p>Швидкість, комфорт і стиль — це все про Модель A.</p>
+      </div>
+      <div class="car-item">
+        <img src="https://via.placeholder.com/300x200" alt="Автомобіль 2">
+        <h3>Модель B</h3>
+        <p>Ідеальний вибір для поїздок по місту та за місто.</p>
+      </div>
+      <div class="car-item">
+        <img src="https://via.placeholder.com/300x200" alt="Автомобіль 3">
+        <h3>Модель C</h3>
+        <p>Автомобіль для любителів швидкості та емоцій на дорозі.</p>
+      </div>
+    </div>
+
+    <h2>Запис на тест-драйв</h2>
+    <p>Хочете спробувати один з наших автомобілів? Заповніть форму для запису на тест-драйв:</p>
+
+    <div class="contact-form">
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Ваше ім'я" required>
+        <input type="email" name="email" placeholder="Ваш email" required>
+        <input type="text" name="phone" placeholder="Ваш номер телефону" required>
+        <textarea name="message" placeholder="Повідомлення" rows="4"></textarea>
+        <button type="submit">Записатися на тест-драйв</button>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Автомобільний сайт. Усі права захищено.</p>
+  </footer>
+
+</body>
+</html>
