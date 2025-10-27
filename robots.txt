@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /temp/
+Disallow: /private/
+
+Sitemap: https://iusefd.github.io/danya.github.io/sitemap.xml
