@@ -6,4 +6,4 @@ Disallow: /cgi-bin/
 Disallow: /temp/
 Disallow: /private/
 
-Sitemap: https://iusefd.github.io/danya.github.io/sitemap.xml
+Host: https://iusefd.github.io/danya.github.io/
